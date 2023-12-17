@@ -35,7 +35,7 @@ interests:
 - High contrast imaging 🌟
 - Self-luminous giant planets 🪐
 - Atmospheric retrievals ☁️
-- Accretion & accretion variability ☄️
+- Accretion & variability ☄️
 
 # Education to show in About widget
 education:
