@@ -34,41 +34,6 @@ sections:
         text_color_light: true
       spacing:
         padding: ["50px", "0", "50px", "0"]
-# new section, presentations
-  - block: markdown
-    id: presentations
-    content:
-      title: Research Presentations
-      subtitle: ''
-      text: |
-        Selected invited talks or conference proceedings. Where possible I've included links to slides or posters associated with my presentations. Last updated 2023/08/23
-
-        "A missing link? First look at the L-T transition planet AF Lep b with VLTI/GRAVITY and JWST/NIRCam" ESO Star and Planet Formation Seminar, Nov. 21st, 2023
-
-        "[The Unexpected Detection of HR 8799 e [with JWST] and Implications for Cycle 3](https://cloudproject.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0f015e1d-f571-4698-9323-b00c017d9772)" STScI Spring Symposium, May 18th, 2023
-
-        "Optical Interferometry of Exoplanets & Brown Dwarfs" American Museum of Natural History Astrophysics Colloqium, February 14th, 2023
-
-        "[Optical Interferometry of Exoplanets & Brown Dwarfs](https://www.facebook.com/watch/live/?ref=watch_permalink&v=1197586477467689)" STScI HotSci Talk Series, August 17th, 2022
-
-        "[Unprecedented precision: using VLTI/GRAVITY jointly with Gaia to characterize substellar companions near and far, young and old](https://www.astrowill.page/wp-content/uploads/2022/07/wbalmer_coolstars_splinter_slides.pdf)" Cool Stars 21 (talk), July 2022, Toulouse
-
-        "[The orbit and Hα variability of HD 142527B](https://www.astrowill.page/wp-content/uploads/2022/07/hd142527B_wbalmer_coolstars_poster.pdf)" Cool Stars 21 (poster), July 2022, Toulouse
-
-        "[CHARACTERIZATION OF THE L‑TYPE BROWN DWARF COMPANION TO THE NEARBY SOLAR‑TYPE STAR HD 72946 WITH VLTI/GRAVITY, VLT/SPHERE, AND RVS](https://www.astrowill.page/wp-content/uploads/2022/06/wbalmer_Lyot22_poster_final.pdf)"
-
-        "[The orbit and Hα variability of HD 142527B](https://www.astrowill.page/wp-content/uploads/2021/05/wbalmer_stsciposter_final-scaled.jpg)" STScI Spring Symposium, April 19th-24th, 2021
-    design:
-      background:
-        image: 
-          filename: veil.jpg
-        image_darken: 0.75
-        image_parallax: true
-        image_position: center
-        image_size: cover
-        text_color_light: true
-      spacing:
-        padding: ["50px", "0", "50px", "0"]
 # new section, 
   - block: markdown
     id: volunteer-outreach
@@ -111,7 +76,7 @@ sections:
         text_color_light: true
       spacing:
         padding: ["50px", "0", "50px", "0"]
-# new section, presentations
+# new section
   - block: markdown
     id: press-and-reporting
     content:

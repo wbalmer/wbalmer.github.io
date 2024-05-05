@@ -1,2 +1,5 @@
 to update each hugo module to the latest tagged release, do
-`hugo mod get -u`
+`sudo hugo mod get -u`
+
+then to build locally do
+`sudo hugo server -D`
