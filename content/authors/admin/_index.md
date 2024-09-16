@@ -27,7 +27,7 @@ organizations:
   url: https://stsci-epsig.blogspot.com/p/team-members.html
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am an astronomer, science journalist, and author. I use ground and space based optical/near infrared telescopes to study exoplanets.
 
 # Interests to show in About widget
 interests:
@@ -73,5 +73,5 @@ social:
 highlight_name: true
 ---
 
-William is an astronomer, freelance science journalist, and author. They use the Very Large Telescope Interferometer (VLTI), the Hubble Space Telescope (HST), and the James Webb Space Telescope (JWST) to study planets in other solar systems. They are a Ph.D candidate in the Department of Physics and Astronomy at the Johns Hopkins University in Baltimore, MD (Piscataway land). They were NASA's [Maryland Space Grant Observatory Fellow](https://md.spacegrant.org/about-mdsgc/our-people/) for the 2022-2023 academic year. This static site hosts William's CV and links to their peer-reviewed articles and presentations. You can read an [informal description of their research](https://www.astrowill.page/research/), peruse various [blog posts](https://www.astrowill.page/log/), and more on their [personal website](https://www.astrowill.page/). Last updated 2023/10/12.
+I am an astronomer, science journalist, and author. I use ground and space based optical/near infrared telescopes to study exoplanets. I primarily focus on taking images of planets using coronagraphy and optical interferometry. I am a Ph.D candidate in the Department of Physics and Astronomy at the Johns Hopkins University in Baltimore, MD (anticipated graduation: 2026). I was NASA's [Maryland Space Grant Observatory Fellow](https://md.spacegrant.org/about-mdsgc/our-people/) for the 2022-2023 academic year. Here you can find links to a number of my first author papers, my CV, and links to recordings of some of my talks and articles.
 {style="text-align: justify;"}
