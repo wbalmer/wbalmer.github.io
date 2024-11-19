@@ -11,6 +11,43 @@ sections:
       title: Hello, I'm Will Balmer.
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+    design:
+      background:
+        image: 
+          filename: paranal_22.jpg
+        # image_darken: 0.
+        image_parallax: false
+        image_position: center
+        image_size: cover
+        text_color_light: true
+      spacing:
+        padding: ["50px", "0", "50px", "0"]
+  - block: markdown
+    id: research
+    content:
+      color: #ffffff
+      title: Research Highlights
+      subtitle: ''
+      text: |2-
+          ## <center>Characterizing Exolanets and Brown Dwarf Companions with VLTI/GRAVITY</center>
+
+          ________
+          <img src="astrometric_orbit_aflepb.png" width="25%" hspace="20" vspace="20" align="right" />
+
+          I use the *K*-band (2-2.5 micron) beam combining instrument GRAVITY to study exoplanets and brown dwarfs as a member of the ExoGRAVITY collaboration. Using optical interferometry, we are able to achieve very precise measurements of the orbital motion of giant planets, and spectra containing information about the abundances of carbon and oxygen bearing molecules in the planet's atmospheres, which we use to better understand their formation and composition. Recent work inclues an in-depth study of AF Lep b (led by myself, forthcoming), the [first constraints on the eccentricity of HIP 65426 b](https://arxiv.org/abs/2310.00148) (led by Sarah Blunt), and two studies I led investigating the orbits and compositions of two brown dwarfs.
+
+          
+          ________
+          ## <center>Imaging AF Lep b with JWST</center>
+          ________
+          <img src="fancy_combined_f444w-removebg.png" width="25%" hspace="20" vspace="20" align="left" />
+          
+          I co-PI'd a [JWST Cycle 2 Director's Discretionary program](https://www.stsci.edu/jwst/science-execution/program-information?id=4558) with [Kyle Franson](https://kfranson.github.io) to image the [AF Leporis system](https://en.wikipedia.org/wiki/AF_Leporis). We sought to characterize the atmosphere of the giant planet AF Lep b and search the system for other, smaller gaseous planets. We were able to detect the known planet at 4.4 microns with JWST/NIRCam; at a projected (on-sky) separation of 320 milliarcseconds, AF Lep b was incredibly challenging to detect with JWST. It was only 5 pixels away from the super bright host star, and partially obscured by the coronagraph we used to suppress the light from the host star. Despite these technical challenges, we successfully detected the planet. The resulting brightness measurement told us that the atmosphere of the planet was very turbulent, with hot gas from the deep layers of the atmosphere being flung far, far up, into the cold upper layers of the atmosphere. You can read a press release on the paper [here](https://mcdonaldobservatory.org/news/releases/), or check out the [paper itself](https://arxiv.org/abs/2406.09528).
+          <br>
+          <br>
+          <br>
+          ________
+
 # new section, publications
   - block: collection
     id: publications
@@ -120,7 +157,7 @@ sections:
       columns: "1"
       background:
         image: 
-          filename: paranal_22.jpg
+          filename: vlti_22.jpg
         image_darken: 0
         image_parallax: true
         image_position: center
