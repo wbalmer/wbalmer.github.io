@@ -11,7 +11,7 @@ authors:
 - L. Pueyo
 - T. Stolker
 - S. Lacour
-- et al.
+- et al
 
 # Author notes (optional)
 author_notes: ""
