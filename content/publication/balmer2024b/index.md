@@ -1,39 +1,17 @@
 ---
-title: "VLTI/GRAVITY Provides Evidence the Young, Substellar Companion HD 136164 Ab formed like a \"Failed Star\""
+title: "VLTI/GRAVITY Observations of AF Lep b: Preference for Circular Orbits, Cloudy Atmospheres, and a Moderately Enhanced Metallicity"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Franson, Kyle
-- Chomez, Antoine
-- Pueyo, Laurent
-- Stolker, Tomas
-- Lacour, Sylvestre
-- Nowak, Mathias
-- Nasedkin, Evert
-- Bonse, Markus J.
-- Thorngren, Daniel
-- Palma-Bifani, Paulina
-- Molliere, Paul
-- Wang, Jason J.
-- Zhang, Zhoujian
-- Chavez, Amanda
-- Kammerer, Jens
-- Blunt, Sarah
-- Bowler, Brendan P.
-- Bonnefoy, Mickael
-- Brandner, Wolfgang
-- Charnay, Benjamin
-- Chauvin, Gael
-- Henning, Th.
-- Lagrange, A. -M.
-- Pourre, Nicolas
-- Rickman, Emily
-- De Rosa, Robert
-- Vigan, Arthur
-- Winterhalder, Thomas 
+- K. Franson
+- A. Chomez
+- L. Pueyo
+- T. Stolker
+- S. Lacour
+- et al.
 
 # Author notes (optional)
 author_notes: ""
