@@ -11,7 +11,29 @@ authors:
 - L. Pueyo
 - T. Stolker
 - S. Lacour
-- et al
+- M. Nowak
+- E. Nasedkin
+- M. Bonse
+- D. Thorngren
+- P. Palma-Bifani
+- P. Molliere
+- J. J. Wang
+- Z. Zhang
+- A. Chavez
+- J. Kammerer
+- S. Blunt
+- B. P. Bowler
+- M. Bonnefoy
+- W. Brandner
+- B. Charnay
+- G. Chauvin
+- Th. Henning
+- A. M. Lagrange 
+- N. Pourre
+- E. Rickman
+- R. De Rosa
+- A. Vigan
+- T. Winterhalder
 
 # Author notes (optional)
 author_notes: ""
