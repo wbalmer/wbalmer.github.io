@@ -8,20 +8,7 @@ authors:
 - admin
 - Laurent Pueyo
 - T. Stolker
-- H. Reggiani
-- S. Lacour
-- A.-L. Maire
-- P. Mollière
-- M. Nowak
-- D. Sing
-- N. Pourré
-- S. Blunt
-- J. J. Wang
-- E. Rickman
-- Th. Henning
-- K. Ward-Duong
-- ExoGRAVITY Collaboration
-- GRAVITY Collaboration
+- ...
 
 
 

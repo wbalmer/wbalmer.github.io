@@ -8,16 +8,7 @@ authors:
 - S. Blunt
 - admin
 - J. J. Wang
-- S. Lacour
-- S. Petrus
-- G. Bourdarot
-- J, Kammerer
-- N. Pourré
-- E. Rickman
-- J. Shangguan
-- T. Winterhalder
-- ExoGRAVITY Collaboration
-- GRAVITY Collaboration
+- ...
 
 
 
@@ -25,7 +16,7 @@ authors:
 author_notes: ""
 
 date: "2023-10-01"
-doi:
+doi: 10.3847/1538-3881/ad06b7
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

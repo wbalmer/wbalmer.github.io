@@ -8,38 +8,13 @@ authors:
 - admin
 - K. Franson
 - A. Chomez
-- L. Pueyo
-- T. Stolker
-- S. Lacour
-- M. Nowak
-- E. Nasedkin
-- M. Bonse
-- D. Thorngren
-- P. Palma-Bifani
-- P. Molliere
-- J. J. Wang
-- Z. Zhang
-- A. Chavez
-- J. Kammerer
-- S. Blunt
-- B. P. Bowler
-- M. Bonnefoy
-- W. Brandner
-- B. Charnay
-- G. Chauvin
-- Th. Henning
-- A. M. Lagrange 
-- N. Pourre
-- E. Rickman
-- R. De Rosa
-- A. Vigan
-- T. Winterhalder
+- ...
 
 # Author notes (optional)
 author_notes: ""
 
-date: "2024-11-08"
-doi:
+date: "2025-01-01"
+doi: 10.3847/1538-3881/ad9265
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -61,7 +36,7 @@ featured: false
 # Custom links (uncomment lines below)
 links:
  - name: "ads entry"
-   url: "https://ui.adsabs.harvard.edu/abs/2024arXiv241105917B/abstract"
+   url: "https://ui.adsabs.harvard.edu/abs/2025AJ....169...30B/abstract"
 
 url_pdf: 'https://arxiv.org/pdf/2411.05917'
 url_code: ''

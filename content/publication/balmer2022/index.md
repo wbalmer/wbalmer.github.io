@@ -8,21 +8,13 @@ authors:
 - admin
 - Katherine Follette
 - L. Close
-- J. Males
-- R. DeRosa
-- J. Adams Redai
-- A. Watson
-- A. Weinberger
-- K. Morzinski
-- J. Morales
-- K. Ward-Duong
-- L. Pueyo
+- ...
 
 # Author notes (optional)
 author_notes: ""
 
 date: "2022-06-03"
-doi:
+doi: 10.3847/1538-3881/ac73f4
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

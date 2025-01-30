@@ -6,29 +6,17 @@ title: "VLTI/GRAVITY Provides Evidence the Young, Substellar Companion HD 136164
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Laurent Pueyo
+- L. Pueyo
 - S. Lacour
-- J. J. Wang
-- T. Stolker
-- J. Kammerer
-- N. Pourré
-- M. Nowak
-- E. Rickman
-- S. Blunt
-- A. Sivaramakrishnan
-- D. Sing
-- K. Wagner
-- G.-D. Marleau
-- ExoGRAVITY Collaboration
-- GRAVITY Collaboration
+- ...
 
 
 
 # Author notes (optional)
 author_notes: ""
 
-date: "2023-12-13"
-doi:
+date: "2024-02-01"
+doi: 10.3847/1538-3881/ad1689
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -50,7 +38,7 @@ featured: false
 # Custom links (uncomment lines below)
 links:
  - name: "ads entry"
-   url: "https://ui.adsabs.harvard.edu/abs/2023arXiv231208283B/abstract"
+   url: "https://ui.adsabs.harvard.edu/abs/2024AJ....167...64B/abstract"
 
 url_pdf: 'https://arxiv.org/pdf/2312.08283.pdf'
 url_code: ''
