@@ -73,5 +73,5 @@ social:
 highlight_name: true
 ---
 
-I am an astronomer, science journalist, and author. I use ground and space telescopes to study exoplanets, my research focuses on imaging exoplanets using coronagraphy and optical interferometry. I am a Ph.D candidate in the Department of Physics and Astronomy at the Johns Hopkins University in Baltimore, MD. I am incredibly passionate about astronomy outreach, science writing, and mentorship. I was NASA's [Maryland Space Grant Observatory Fellow](https://md.spacegrant.org/about-mdsgc/our-people/) for the 2022-2023 academic year. You can find my CV, links to my first author papers, and some of my talks and articles below.
+I am an astronomer, science journalist, and author. I use big telescopes on the ground and in space to study planets in distant solar systems. My research focuses on directly imaging exoplanets using coronagraphy and optical interferometry. I am a Ph.D candidate in the Department of Physics and Astronomy at the Johns Hopkins University in Baltimore, MD. I am incredibly passionate about astronomy outreach, science writing, and mentorship. I was NASA's [Maryland Space Grant Observatory Fellow](https://md.spacegrant.org/about-mdsgc/our-people/) for the 2022-2023 academic year. You can find my CV, links to my first author papers, and some of my talks and articles below.
 {style="text-align: justify;"}
