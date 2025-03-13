@@ -16,9 +16,12 @@ main:
   - name: Outreach
     url: '#volunteer-outreach'
     weight: 50
-  - name: In the press
-    url: '#press-and-reporting'
+  - name: Press
+    url: '#press'
     weight: 60
+  - name: Journalism
+    url: '#reporting'
+    weight: 70
   - name: CV
     url: 'uploads/wbalmer_cv.pdf'
     weight: 90

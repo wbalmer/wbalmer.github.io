@@ -78,12 +78,37 @@ sections:
         padding: ["50px", "0", "50px", "0"]
 # new section
   - block: markdown
-    id: press-and-reporting
+    id: press
     content:
-      title: In the Press
+      title: Research in the Press
       subtitle: ''
       text: |
-        Articles I’ve written or been interviewed for. Last updated 2023/10/12.
+        A selection of articles written about research I'm involved in. Last updated 2025/03/13.
+
+        "[UT Astronomers Race To Capture Image of Exoplanet Near Star](https://mcdonaldobservatory.org/news/releases/20241009), McDonald Observatory Press Release, October 9, 2024
+
+        "[Newfound alien planet has nuclear fusion going in its core](https://www.space.com/europe-gaia-mission-exoplanet-nuclear-fusion), by Andrew Jones for *Space.com* 
+
+    design:
+      columns: "1"
+      background:
+        image: 
+          filename: JHU_beehive.jpg
+        image_darken: 0
+        image_parallax: true
+        image_position: center
+        image_size: cover
+        text_color_light: true
+      spacing:
+        padding: ["50px", "0", "50px", "0"]
+# new section
+  - block: markdown
+    id: reporting
+    content:
+      title: Science Journalism
+      subtitle: ''
+      text: |
+        Articles I’ve written. Last updated 2025/03/13.
 
         "[How astronomers search for life on exoplanets](https://www.planetary.org/articles/how-astronomers-search-for-life-on-exoplanets)" by William Balmer for *The Planetary Society*, Oct 11, 2023
 
@@ -108,8 +133,6 @@ sections:
         "[Herald of the Change: A microlensing Jupiter-analogue spotted in K2 data portends Roman’s yield of new planets](https://astrobites.org/2022/04/11/k2-first-microlensing/)" by William Balmer for *[Astrobites](https://astrobites.org/)*, April 11th, 2022.
 
         "[Peek-a-boo! Forming Moons Revealed Around a Baby Planet](https://astrobites.org/2022/02/09/pds70c-disk/)" by William Balmer for *[Astrobites](https://astrobites.org/)*, February 9th, 2022.
-
-        “[Reaching for the Stars: William Balmer Thesis Spotlight](https://www.amherststemnetwork.com/post/reaching-for-the-stars-william-balmer-thesis-spotlight)” by Sarah Lapean in *The Amherst STEM Network* on May 14th, 2021.
 
         “[The Orbit and Growth of HD 142527B](https://astrobites.org/2021/03/14/ur-orbit-growth-hd142527b/)” by William Balmer for *[Astrobites](https://astrobites.org/)*, March 14th, 2021.
 
