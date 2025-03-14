@@ -11,6 +11,39 @@ sections:
       title: Hello, I'm Will Balmer.
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  - block: markdown
+    id: research
+    content:
+      color: #ffffff
+      title: Research Highlights
+      subtitle: ''
+      text: |2-
+          ________
+          ## <center> Imaging HR 8799 bcde and 51 Eri b with JWST </center>
+          ________
+          
+          <img src="/uploads/hr8799bcde_tstbar_opo_fancy.png" width="25%" hspace="20" vspace="20" align="left" />
+
+          As a member of the JWST Telescope Scientist Team (JWST-TST), I used guaranteed time observations planned by our high contrast imaging group at STScI to reveal the atmospheres of the iconic HR 8799 planets at never-before-seen wavelengths of light. This result validates the findings of our <a href="https://arxiv.org/abs/2404.03776">ExoGRAVITY collaboration paper on the system</a>, that the four gas giants in the HR 8799 system appear to be metal rich compared to their host star, indicating that they formed via core accretion. In order to block the light from the bright host star and reveal these faint planets, we used a novel mode of the Near Infrared Camera (NIRCam) coronagraph, placing all the observations at the narrowest end of the underutilized wedge shaped mask.
+
+          <img src="/uploads/51erib_tstbar_opo_fancy.png" width="30%" hspace="5" vspace="5" align="right" />
+
+          In particular, our JWST observations show carbon dioxide absorption (CO<sub>2</sub>) in each planet's atmosphere, which, compared to the carbon monoxide absorption (CO) gives us a handle on the relative enrichment of heavy elements in the atmosphere. I was awarded about 23 hours of additional JWST observing time in order to measure this same absorption feature in <a href="https://www.stsci.edu/jwst/science-execution/program-information?id=6905">four additional directly imaged systems</a>. That means four more beautiful images of giant exoplanets from JWST in the near future!
+
+          We also observed the young, Jupiter-mass planet 51 Eri b. Despite how faint this planet is, we were able to detect it at a wavelength of 4.1 microns, which tells us indirectly about how hot the planet is, and how much CO<sub>2</sub> is in its atmosphere. 51 Eri b is one of my favorite planets, so it was a pleasure to be able to observe it with JWST.
+
+          ________
+          ## <center>Characterizing Exolanets and Brown Dwarf Companions with VLTI/GRAVITY</center>
+          ________
+          <img src="/uploads/astrometric_orbit_aflepb.png" width="25%" hspace="20" vspace="20" align="right" />
+          I use the K-band (2-2.5 micron) beam combining instrument GRAVITY to study exoplanets and brown dwarfs as a member of the ExoGRAVITY collaboration. Using optical interferometry, we are able to achieve very precise measurements of the orbital motion of giant planets, and spectra containing information about the abundances of carbon and oxygen bearing molecules in the planet's atmospheres, which we use to better understand their formation and composition. Recent work inclues an <a href="https://arxiv.org/abs/2411.05917">in-depth study of AF Lep b</a>, the <a href="https://arxiv.org/abs/2310.00148">first constraints on the eccentricity of HIP 65426 b</a> (led by Sarah Blunt), and two studies I led investigating the orbits and compositions of two brown dwarfs.
+
+          ________
+          ## <center>Imaging AF Lep b with JWST</center>
+          ________
+          <img src="/uploads/fancy_combined_f444w-removebg.png" width="25%" hspace="20" vspace="20" align="left" />
+
+          I co-PI'd a [JWST Cycle 2 Director's Discretionary program](https://www.stsci.edu/jwst/science-execution/program-information?id=4558) with [Kyle Franson](https://kfranson.github.io) to image the [AF Leporis system](https://en.wikipedia.org/wiki/AF_Leporis). We sought to characterize the atmosphere of the giant planet AF Lep b and search the system for other, smaller gaseous planets. We were able to detect the known planet at 4.4 microns with JWST/NIRCam; at a projected (on-sky) separation of 320 milliarcseconds, AF Lep b was incredibly challenging to detect with JWST. It was only 5 pixels away from the super bright host star, and partially obscured by the coronagraph we used to suppress the light from the host star. Despite these technical challenges, we successfully detected the planet. The resulting brightness measurement told us that the atmosphere of the planet was very turbulent, with hot gas from the deep layers of the atmosphere being flung far, far up, into the cold upper layers of the atmosphere. You can read a press release on the paper [here](https://mcdonaldobservatory.org/news/releases/), or check out the [paper itself](https://arxiv.org/abs/2406.09528).
 # new section, publications
   - block: collection
     id: publications
