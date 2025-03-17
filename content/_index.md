@@ -118,9 +118,13 @@ sections:
       text: |
         A selection of articles written about research I'm involved in. Last updated 2025/03/13.
 
-        "[UT Astronomers Race To Capture Image of Exoplanet Near Star](https://mcdonaldobservatory.org/news/releases/20241009), McDonald Observatory Press Release, October 9, 2024
+        "[James Webb Space Telescope sees four giant alien planets circling nearby star](https://www.space.com/space-exploration/james-webb-space-telescope/james-webb-space-telescope-sees-four-giant-alien-planets-circling-nearby-star-images)," by Sharmila Kuthunur for *Space.com*
 
-        "[Newfound alien planet has nuclear fusion going in its core](https://www.space.com/europe-gaia-mission-exoplanet-nuclear-fusion), by Andrew Jones for *Space.com* 
+        "NASA's Webb Images Young, Giant Exoplanets, Detects Carbon Dioxide," by Roberto Molar Candanosa for [JHU](https://hub.jhu.edu/2025/03/17/webb-telescope-carbon-dioxide-exoplanet/), and Hannah Braun for [STScI](https://webbtelescope.org/contents/news-releases/2025/news-2025-114?ftag=MSF0951a18) and [NASA](https://science.nasa.gov/missions/webb/nasas-webb-images-young-giant-exoplanets-detects-carbon-dioxide/). 
+
+        "[UT Astronomers Race To Capture Image of Exoplanet Near Star](https://mcdonaldobservatory.org/news/releases/20241009)," McDonald Observatory Press Release, October 9, 2024
+
+        "[Newfound alien planet has nuclear fusion going in its core](https://www.space.com/europe-gaia-mission-exoplanet-nuclear-fusion)," by Andrew Jones for *Space.com* 
 
     design:
       columns: "1"
