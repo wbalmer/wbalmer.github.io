@@ -30,20 +30,20 @@ sections:
 
           In particular, our JWST observations show carbon dioxide absorption (CO<sub>2</sub>) in each planet's atmosphere, which, compared to the carbon monoxide absorption (CO) gives us a handle on the relative enrichment of heavy elements in the atmosphere. I was awarded about 23 hours of additional JWST observing time in order to measure this same absorption feature in <a href="https://www.stsci.edu/jwst/science-execution/program-information?id=6905">four additional directly imaged systems</a>. That means four more beautiful images of giant exoplanets from JWST in the near future!
 
-          We also observed the young, Jupiter-mass planet 51 Eri b. Despite how faint this planet is, we were able to detect it at a wavelength of 4.1 microns, which tells us indirectly about how hot the planet is, and how much CO<sub>2</sub> is in its atmosphere. 51 Eri b is one of my favorite planets, so it was a pleasure to be able to observe it with JWST.
+          We also observed the young, Jupiter-mass planet 51 Eri b. Despite how faint this planet is, we were able to detect it at a wavelength of 4.1 microns, which tells us indirectly about how hot the planet is, and how much CO<sub>2</sub> is in its atmosphere. 51 Eri b is one of my favorite planets, so it was a pleasure to be able to observe it with JWST and update its orbit with <a href="https://orbitize.info/">orbitize!</a>.
 
           ________
           ## <center>Characterizing Exolanets and Brown Dwarf Companions with VLTI/GRAVITY</center>
           ________
           <img src="/uploads/astrometric_orbit_aflepb.png" width="25%" hspace="20" vspace="20" align="right" />
-          I use the K-band (2-2.5 micron) beam combining instrument GRAVITY to study exoplanets and brown dwarfs as a member of the ExoGRAVITY collaboration. Using optical interferometry, we are able to achieve very precise measurements of the orbital motion of giant planets, and spectra containing information about the abundances of carbon and oxygen bearing molecules in the planet's atmospheres, which we use to better understand their formation and composition. Recent work inclues an <a href="https://arxiv.org/abs/2411.05917">in-depth study of AF Lep b</a>, the <a href="https://arxiv.org/abs/2310.00148">first constraints on the eccentricity of HIP 65426 b</a> (led by Sarah Blunt), and two studies I led investigating the orbits and compositions of two brown dwarfs.
+          I use the K-band (2-2.5 micron) beam combining instrument GRAVITY to study exoplanets and brown dwarfs as a member of the ExoGRAVITY collaboration. Using optical interferometry, we make very precise measurements of the orbital motion of giant planets, and collect spectra containing information about the abundances of carbon and oxygen bearing molecules in their atmospheres. We use both of these measurements to better understand the formation and composition of giant planets. Recent work inclues an <a href="https://arxiv.org/abs/2411.05917">in-depth study of AF Lep b</a>, the <a href="https://arxiv.org/abs/2310.00148">first constraints on the eccentricity of HIP 65426 b</a> (led by Sarah Blunt), and two studies I led investigating the orbits and compositions of two brown dwarfs, the chemical and mass benchmark <a href="https://arxiv.org/abs/2309.04403">HD 72946 B</a> and the youngest imaged brown dwarf with a dynamical mass measurement <a href="https://arxiv.org/abs/2312.08283">HD 136164 Ab </a>.
 
           ________
           ## <center>Imaging AF Lep b with JWST</center>
           ________
           <img src="/uploads/fancy_combined_f444w-removebg.png" width="25%" hspace="20" vspace="20" align="left" />
 
-          I co-PI'd a [JWST Cycle 2 Director's Discretionary program](https://www.stsci.edu/jwst/science-execution/program-information?id=4558) with [Kyle Franson](https://kfranson.github.io) to image the [AF Leporis system](https://en.wikipedia.org/wiki/AF_Leporis). We sought to characterize the atmosphere of the giant planet AF Lep b and search the system for other, smaller gaseous planets. We were able to detect the known planet at 4.4 microns with JWST/NIRCam; at a projected (on-sky) separation of 320 milliarcseconds, AF Lep b was incredibly challenging to detect with JWST. It was only 5 pixels away from the super bright host star, and partially obscured by the coronagraph we used to suppress the light from the host star. Despite these technical challenges, we successfully detected the planet. The resulting brightness measurement told us that the atmosphere of the planet was very turbulent, with hot gas from the deep layers of the atmosphere being flung far, far up, into the cold upper layers of the atmosphere. You can read a press release on the paper [here](https://mcdonaldobservatory.org/news/releases/), or check out the [paper itself](https://arxiv.org/abs/2406.09528).
+          I co-PI'd a [JWST Cycle 2 Director's Discretionary program](https://www.stsci.edu/jwst/science-execution/program-information?id=4558) with [Kyle Franson](https://kfranson.github.io) to image the [AF Leporis system](https://en.wikipedia.org/wiki/AF_Leporis). We sought to characterize the atmosphere of the giant planet AF Lep b and search the system for other, smaller gaseous planets. At a projected (on-sky) separation of 320 milliarcseconds, AF Lep b planet was incredibly challenging to detect with JWST. It was only 5 pixels away from the super bright host star AF Lep A, and partially obscured by the coronagraph we used to suppress the light from the host. Despite these technical challenges, we successfully detected the planet by leveraging the stability of the telescope's wavefront and differntial imaging strategies. The resulting brightness measurement at these long wavelengths told us that the atmosphere of the planet was very turbulent, with hot gas from the deep layers of the atmosphere being flung far, far up, into the cold upper layers of the atmosphere. You can read a press release on the paper [here](https://mcdonaldobservatory.org/news/releases/), or check out the [paper itself](https://arxiv.org/abs/2406.09528).
 # new section, publications
   - block: collection
     id: publications
@@ -79,6 +79,8 @@ sections:
         Observatory Fellow, Maryland Space Grant Consortium | September 2022 - May 2023
 
         Volunteer, Maryland Space Grant Observatory | May 2023 - present
+
+        Penpal, Letters to a Pre-Scientist | February 2025 - present
 
         Volunteer, Youth in Engineering and Astronomy, STScI | October 2022 - present
 
@@ -116,9 +118,11 @@ sections:
       title: Research in the Press
       subtitle: ''
       text: |
-        A selection of articles written about research I'm involved in. Last updated 2025/03/13.
+        A selection of articles written about research I'm involved in; articles on a repeated topic typically indicate I provided additional comments for that particular article. Last updated 2025/03/18.
 
-        "[James Webb Space Telescope sees four giant alien planets circling nearby star](https://www.space.com/space-exploration/james-webb-space-telescope/james-webb-space-telescope-sees-four-giant-alien-planets-circling-nearby-star-images)," by Sharmila Kuthunur for *Space.com*
+        "[Webb telescope directly observes exoplanet CO<sub>2</sub> for first time](https://phys.org/news/2025-03-webb-telescope-exoplanet.html)," by Daniel Lawler for *AFP*, available on *phys.org*.
+
+        "[El supertelescopio James Webb logra sus primeras imágenes directas de dióxido de carbono fuera de nuestro sistema solar](https://www.elmundo.es/ciencia-y-salud/ciencia/2025/03/17/67d47779fc6c837f728b458f.html)," by Teresa Guerrero for *El Mundo*. 
 
         "NASA's Webb Images Young, Giant Exoplanets, Detects Carbon Dioxide," by Roberto Molar Candanosa for [JHU](https://hub.jhu.edu/2025/03/17/webb-telescope-carbon-dioxide-exoplanet/), and Hannah Braun for [STScI](https://webbtelescope.org/contents/news-releases/2025/news-2025-114?ftag=MSF0951a18) and [NASA](https://science.nasa.gov/missions/webb/nasas-webb-images-young-giant-exoplanets-detects-carbon-dioxide/). 
 

@@ -31,16 +31,16 @@ bio: I am an astronomer, science journalist, and author. I use ground and space 
 
 # Interests to show in About widget
 interests:
-- Optical interferometry 💫
 - High contrast imaging 🌟
-- Self-luminous giant planets 🪐
-- Atmospheric retrievals ☁️
+- Optical interferometry 💫
+- Gas giant exoplanets 🪐
+- Atmospheric modeling ☁️
 - Accretion & variability ☄️
 
 # Education to show in About widget
 education:
   courses:
-  - course: Graduate (Ph.D.) student in Astronomy
+  - course: Ph.D. candidate in Astronomy
     institution: Johns Hopkins University
     year: 2021-present
   - course: Bachelors of Arts cum laude in Astronomy and in Physics
