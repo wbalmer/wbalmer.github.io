@@ -118,7 +118,7 @@ sections:
       title: Research in the Press
       subtitle: ''
       text: |
-        A selection of articles written about research I'm involved in; articles on a repeated topic typically indicate I provided additional comments for that particular article. Last updated 2025/03/18.
+        A selection of articles written about research I'm involved in; articles on a repeated topic typically indicate I provided additional comments for that particular article. Last updated 2025/03/27.
 
         "[Webb telescope directly observes exoplanet CO<sub>2</sub> for first time](https://phys.org/news/2025-03-webb-telescope-exoplanet.html)," by Daniel Lawler for *AFP*, available on *phys.org*.
 
