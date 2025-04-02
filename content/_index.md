@@ -1,49 +1,69 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: ""
 date: 2022-10-24
 type: landing
 
+design:
+  # Default section spacing
+  spacing: "1rem"
+
 sections:
-  - block: about.biography
-    id: about
+  - block: my-resume-biography-3
     content:
-      title: Hello, I'm Will Balmer.
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: markdown
-    id: research
+      text: ""
+      # Show a call-to-action button under your biography? (optional)
+    design:
+      css_class: dark
+      background:
+        color: black
+        image:
+          # Add your image background to `assets/media/`.
+          filename: vlti_22.jpg
+          filters:
+            brightness: 0.5
+          size: cover
+          position: center
+          parallax: false
+
+  - block: my-markdown
+    id: research-highlights-title
     content:
-      color: #ffffff
-      title: Research Highlights
+      title: "Research Highlights"
+
+  - block: research-highlights
+    id: 'tstbar_intro'
+    content:
+      title: 'Imaging HR 8799 bcde and 51 Eri b with JWST'
       subtitle: ''
-      text: |2-
-          ________
-          ## <center> Imaging HR 8799 bcde and 51 Eri b with JWST </center>
-          ________
-          
-          <img src="/uploads/hr8799bcde_tstbar_opo_fancy.png" width="25%" hspace="20" vspace="20" align="left" />
+      figtext: '{{< figure src="/uploads/hr8799bcde_tstbar_opo_fancy.png" width="320">}}'
+      external_link: https://webbtelescope.org/contents/news-releases/2025/news-2025-114
+      highlight: 'tstbar_intro'
+  - block: research-highlights-left
+    content:
+      title: 'Measuring CO2 Absorption, Constraining Composition'
+      subtitle: ''
+      figtext: '{{< figure src="/uploads/51erib_tstbar_opo_fancy.png" width="320">}}'
+      external_link: https://ui.adsabs.harvard.edu/abs/2025AJ....169..209B/abstract
+      highlight: tstbar_details
+  - block: research-highlights
+    content:
+      title: 'How Typical Is AF Leporis b? Answers from Interferometry'
+      subtitle: ''
+      figtext: '{{< figure src="/uploads/astrometric_orbit_aflepb.png" width="400">}}'
+      external_link: https://ui.adsabs.harvard.edu/abs/2025AJ....169...30B/abstract
+      highlight: vlti_aflepb_char
 
-          As a member of the JWST Telescope Scientist Team (JWST-TST), I used guaranteed time observations planned by our high contrast imaging group at STScI to reveal the atmospheres of the iconic HR 8799 planets at never-before-seen wavelengths of light. The data is described in a <a href="https://doi.org/10.3847/1538-3881/adb1c6">first author paper I published in March 2025</a>. The paper had a press release, <a href="https://webbtelescope.org/contents/news-releases/2025/news-2025-114">found here</a>. This result validates the findings of our <a href="https://arxiv.org/abs/2404.03776">ExoGRAVITY collaboration paper on the system</a>, that the four gas giants in the HR 8799 system appear to be metal rich compared to their host star, indicating that they formed via core accretion. In order to block the light from the bright host star and reveal these faint planets, we used a novel mode of the Near Infrared Camera (NIRCam) coronagraph, placing all the observations at the narrowest end of the underutilized wedge shaped mask.
 
-          <img src="/uploads/51erib_tstbar_opo_fancy.png" width="30%" hspace="5" vspace="5" align="right" />
+  - block: awards-and-observing
+    content:
+      title: Awards & Observing Programs
+      username: admin
+    design:
+      show_skill_percentage: false
 
-          In particular, our JWST observations show carbon dioxide absorption (CO<sub>2</sub>) in each planet's atmosphere, which, compared to the carbon monoxide absorption (CO) gives us a handle on the relative enrichment of heavy elements in the atmosphere. I was awarded about 23 hours of additional JWST observing time in order to measure this same absorption feature in <a href="https://www.stsci.edu/jwst/science-execution/program-information?id=6905">four additional directly imaged systems</a>. That means four more beautiful images of giant exoplanets from JWST in the near future!
-
-          We also observed the young, Jupiter-mass planet 51 Eri b. Despite how faint this planet is, we were able to detect it at a wavelength of 4.1 microns, which tells us indirectly about how hot the planet is, and how much CO<sub>2</sub> is in its atmosphere. 51 Eri b is one of my favorite planets, so it was a pleasure to be able to observe it with JWST and update its orbit with <a href="https://orbitize.info/">orbitize!</a>.
-
-          ________
-          ## <center>Characterizing Exolanets and Brown Dwarf Companions with VLTI/GRAVITY</center>
-          ________
-          <img src="/uploads/astrometric_orbit_aflepb.png" width="25%" hspace="20" vspace="20" align="right" />
-          I use the K-band (2-2.5 micron) beam combining instrument GRAVITY to study exoplanets and brown dwarfs as a member of the ExoGRAVITY collaboration. Using optical interferometry, we make very precise measurements of the orbital motion of giant planets, and collect spectra containing information about the abundances of carbon and oxygen bearing molecules in their atmospheres. We use both of these measurements to better understand the formation and composition of giant planets. Recent work inclues an <a href="https://arxiv.org/abs/2411.05917">in-depth study of AF Lep b</a>, the <a href="https://arxiv.org/abs/2310.00148">first constraints on the eccentricity of HIP 65426 b</a> (led by Sarah Blunt), and two studies I led investigating the orbits and compositions of two brown dwarfs, the chemical and mass benchmark <a href="https://arxiv.org/abs/2309.04403">HD 72946 B</a> and the youngest imaged brown dwarf with a dynamical mass measurement <a href="https://arxiv.org/abs/2312.08283">HD 136164 Ab </a>.
-
-          ________
-          ## <center>Imaging AF Lep b with JWST</center>
-          ________
-          <img src="/uploads/fancy_combined_f444w-removebg.png" width="25%" hspace="20" vspace="20" align="left" />
-
-          I co-PI'd a [JWST Cycle 2 Director's Discretionary program](https://www.stsci.edu/jwst/science-execution/program-information?id=4558) with [Kyle Franson](https://kfranson.github.io) to image the [AF Leporis system](https://en.wikipedia.org/wiki/AF_Leporis). We sought to characterize the atmosphere of the giant planet AF Lep b and search the system for other, smaller gaseous planets. At a projected (on-sky) separation of 320 milliarcseconds, AF Lep b planet was incredibly challenging to detect with JWST. It was only 5 pixels away from the super bright host star AF Lep A, and partially obscured by the coronagraph we used to suppress the light from the host. Despite these technical challenges, we successfully detected the planet by leveraging the stability of the telescope's wavefront and differntial imaging strategies. The resulting brightness measurement at these long wavelengths told us that the atmosphere of the planet was very turbulent, with hot gas from the deep layers of the atmosphere being flung far, far up, into the cold upper layers of the atmosphere. You can read a press release on the paper [here](https://mcdonaldobservatory.org/news/releases/), or check out the [paper itself](https://arxiv.org/abs/2406.09528).
 # new section, publications
   - block: collection
     id: publications
@@ -59,8 +79,8 @@ sections:
       columns: "2"
       background:
         image: 
-          filename: vlt_2.jpg
-        image_darken: 0.75
+          filename: paranal_22.jpg
+        image_darken: 0.5
         image_parallax: true
         image_position: center
         image_size: cover
@@ -71,7 +91,7 @@ sections:
   - block: markdown
     id: volunteer-outreach
     content: 
-      title: Outreach
+      title: ""
       subtitle: ""
       text: |
         ## <center> Outreach Activites </center>
@@ -82,7 +102,7 @@ sections:
 
         Penpal, Letters to a Pre-Scientist | February 2025 - present
 
-        Volunteer, Youth in Engineering and Astronomy, STScI | October 2022 - present
+        Volunteer, Youth in Engineering and Astronomy, STScI | October 2022 - September 2023
 
         Author, [Astrobites, the astro-ph reader's digest](https://astrobites.org/author/wbalmer/) | December 2021 - present
 
@@ -90,15 +110,6 @@ sections:
 
         Astronomy Editor, [Amherst STEM Network](https://www.amherststemnetwork.com/) | October 2019 – May 2021
 
-        ## <center> Public Talks </center>
-
-        "How to take pictures of planets in other solar systems" North County High School, June 2023
-
-        “[Directly Imaging Exoplanets, determining their orbits and atmospheres](https://youtu.be/5Djcbbj-HQ0?t=1893)” Howard Astronomical League, June 16th, 2022
-
-        “[The Growth of Young Stars and Protoplanets!](https://www.balticon.org/wp56/)” Balticon 56, May 27th, 2022
-
-        “[Adolescent astronomy: Planet formation, Direct imaging, and early-career astronomy research](https://www.astrowill.page/blog/2021/05/19/talkin-the-talk-and-presenting-the-posters/)” UMass Astronomy Club, April 20th, 2021
     design:
       columns: "1"
       background:
@@ -119,6 +130,8 @@ sections:
       subtitle: ''
       text: |
         A selection of articles written about research I'm involved in; articles on a repeated topic typically indicate I provided additional comments for that particular article. Last updated 2025/03/27.
+
+        "[Scientists used JWST instruments 'wrong' on purpose to capture direct images of exoplanets](https://www.space.com/space-exploration/james-webb-space-telescope/scientists-used-jwst-instruments-wrong-on-purpose-to-capture-direct-images-of-exoplanets)," by Victoria Corless for *Space.com*.
 
         "[Webb telescope directly observes exoplanet CO<sub>2</sub> for first time](https://phys.org/news/2025-03-webb-telescope-exoplanet.html)," by Daniel Lawler for *AFP*, available on *phys.org*.
 
@@ -184,7 +197,7 @@ sections:
       columns: "1"
       background:
         image: 
-          filename: paranal_22.jpg
+          filename: vlt_2.jpg
         image_darken: 0
         image_parallax: true
         image_position: center
@@ -192,4 +205,7 @@ sections:
         text_color_light: true
       spacing:
         padding: ["50px", "0", "50px", "0"]
+---
+
+
 ---

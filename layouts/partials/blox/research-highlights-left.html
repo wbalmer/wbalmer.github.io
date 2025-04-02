@@ -1,0 +1,44 @@
+{{/* Hugo Blox: Markdown */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $specific_highlight := $block.content.highlight}}
+{{ $highlight_page_path := (printf "/research_highlights/%s" $specific_highlight) }}
+{{ $highlight_page := site.GetPage $highlight_page_path }}
+{{ if not $highlight_page }}
+  {{ errorf "Could not find a highlight page at `%s`." }}
+{{end}}
+{{ $title := $block.content.title | emojify | $page.RenderString }}
+<!-- {{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }} -->
+{{ $figtext := $block.content.figtext | emojify | $page.RenderString | safeHTML }}
+{{ $link := $block.content.external_link}}
+
+<!-- <div class="px-3 flex flex-col md:flex-row justify-center bg-white gap-12"> -->
+<div id="research-highlights" class="group px-3 flex flex-col md:flex-row justify-center bg-white gap-12">
+  <div id="research-highlights-text-left" class="flex-auto max-w-prose">
+    <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+        <a
+        href="{{ $link }}">
+        <span id="indiv-research-highlight-title" class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
+        {{ $title }}
+    </span>
+    </a>
+    </div>
+      {{/* We use DIV rather than P to support `prose` class and multiple paragraphs */}}
+      {{ with $highlight_page.Content }}<div id="research-highlights-just-text" class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose">{{ . }}</div>{{ end }}
+    </div>
+<div class="flex-none m-w-[130px] mx-auto md:mx-0">
+  <a href="{{ $link }}">
+  <div class="flex justify-center items-center transition-all hover:scale-105 flex-col">
+    {{ with $figtext }}
+    <div>
+      {{ . }}
+    </div>
+    {{ end }}
+
+  </a>
+</div>
+</div>

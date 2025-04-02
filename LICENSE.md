@@ -1,10 +1,6 @@
 MIT License
 
-<<<<<<< HEAD
-Copyright (c) 2016-present George Cushen
-=======
 Copyright (c) 2023-present George Cushen (https://georgecushen.com/)
->>>>>>> 544b9d46c2e04e84cfab482ce102032318447c18
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
