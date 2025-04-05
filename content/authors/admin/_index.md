@@ -10,8 +10,8 @@ first_name: William
 last_name: Balmer
 
 # # Status emoji
-# status:
-#   icon: 🪐
+status:
+  icon: 🪐
 
 # Is this the primary user of the site?
 superuser: true
@@ -124,5 +124,5 @@ skills:
 
 # Hello, I'm Will Balmer.
 
-I am an astronomer, science journalist, and author. I use big telescopes on the ground and in space to study planets in distant solar systems. My research focuses on directly imaging exoplanets using coronagraphy and optical interferometry. I am a Ph.D candidate in the Department of Physics and Astronomy at the Johns Hopkins University in Baltimore, MD. I am incredibly passionate about astronomy outreach, science writing, and mentorship. I was NASA's [Maryland Space Grant Observatory Fellow](https://md.spacegrant.org/about-mdsgc/our-people/) for the 2022-2023 academic year. You can find my CV, links to my first author papers, and some of my talks and articles below.
+I am an astronomer, science journalist, and author. I use big telescopes on the ground and in space to study planets in distant solar systems. My research focuses on directly imaging exoplanets using coronagraphy and optical interferometry, to learn more about how planets form and place our own solar system in a galatic context. I am a Ph.D candidate in the Department of Physics and Astronomy at the Johns Hopkins University in Baltimore, MD. I am incredibly passionate about astronomy outreach, science writing, and mentorship. You can find my CV, links to my first author papers, and some of my talks and articles below.
 <!-- {style="text-align: justify;"} -->
