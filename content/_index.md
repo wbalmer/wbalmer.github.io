@@ -45,7 +45,7 @@ sections:
     content:
       title: 'Measuring CO2 Absorption, Constraining Composition'
       subtitle: ''
-      figtext: '{{< figure src="/uploads/51erib_tstbar_opo_fancy.png" width="320">}}'
+      figtext: '{{< figure src="/uploads/51erib_tstbar_opo_fancy.png" width="360">}}'
       external_link: https://ui.adsabs.harvard.edu/abs/2025AJ....169..209B/abstract
       highlight: tstbar_details
   - block: research-highlights
@@ -55,6 +55,13 @@ sections:
       figtext: '{{< figure src="/uploads/astrometric_orbit_aflepb.png" width="400">}}'
       external_link: https://ui.adsabs.harvard.edu/abs/2025AJ....169...30B/abstract
       highlight: vlti_aflepb_char
+  - block: research-highlights-left
+    content:
+      title: 'Imaging a Young Jupiter with JWST'
+      subtitle: ''
+      figtext: '{{< figure src="/uploads/fancy_combined_f444w-removebg.png" width="340">}}'
+      external_link: https://ui.adsabs.harvard.edu/abs/2024ApJ...974L..11F/abstract
+      highlight: jwst_aflepb_char
 
 
   - block: awards-and-observing

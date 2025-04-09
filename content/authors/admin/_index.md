@@ -10,8 +10,8 @@ first_name: William
 last_name: Balmer
 
 # # Status emoji
-status:
-  icon: 🪐
+# status:
+#   icon: 🪐
 
 # Is this the primary user of the site?
 superuser: true
