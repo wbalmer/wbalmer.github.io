@@ -96,10 +96,10 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: JWST PID 6915, 47.3 hours
+      - name: JWST PID 6915, 48 hours
         description: ''
         percent: 60
-      - name: JWST PID 6905, 22.5 hours
+      - name: JWST PID 6905, 23 hours
         description: ''
         percent: 60
       - name: JWST PID 4558, 6.4 hours
