@@ -33,6 +33,15 @@ sections:
     content:
       title: "Research Highlights"
 
+  - block: research-highlights-left
+    id: '14her'
+    content:
+      title: 'A cold planet in a dynamically hot system'
+      subtitle: ''
+      figtext: '{{< figure src="/uploads/14herc_opo_fancy.png" width="320">}}'
+      external_link: https://webbtelescope.org/contents/news-releases/2025/news-2025-114
+      highlight: '14her'
+
   - block: research-highlights
     id: 'tstbar_intro'
     content:

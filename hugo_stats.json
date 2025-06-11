@@ -45,7 +45,6 @@
       "[hyphens:auto]",
       "article-metadata",
       "avatar",
-      "avatar-emoji",
       "avatar-wrapper",
       "bg-[length:0px_10px]",
       "bg-black",
@@ -395,6 +394,7 @@
       "z-30"
     ],
     "ids": [
+      "14her",
       "Select Awards",
       "Select PI Observing Programs",
       "awards-and-observing-container",
