@@ -39,7 +39,7 @@ sections:
       title: 'A cold planet in a dynamically hot system'
       subtitle: ''
       figtext: '{{< figure src="/uploads/14herc_opo_fancy.png" width="320">}}'
-      external_link: https://webbtelescope.org/contents/news-releases/2025/news-2025-114
+      external_link: https://science.nasa.gov/missions/webb/frigid-exoplanet-in-strange-orbit-imaged-by-nasas-webb/
       highlight: '14her'
 
   - block: research-highlights
