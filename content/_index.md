@@ -33,6 +33,14 @@ sections:
     content:
       title: "Research Highlights"
 
+  - block: research-highlights
+    id: 'minibar-29cyg'
+    content:
+      title: 'JWST reveals tons of CO2 in a hyper-giant planet'
+      subtitle: ''
+      figtext: '{{< figure src="/uploads/29Cyp_b_NIRCAM_OPO_2000px.png" width="320">}}'
+      external_link: https://science.nasa.gov/missions/webb/nasas-webb-redefines-dividing-line-between-planets-stars/
+      highlight: 'minibar-29cyg'
   - block: research-highlights-left
     id: '14her'
     content:
@@ -41,36 +49,35 @@ sections:
       figtext: '{{< figure src="/uploads/14herc_opo_fancy.png" width="320">}}'
       external_link: https://science.nasa.gov/missions/webb/frigid-exoplanet-in-strange-orbit-imaged-by-nasas-webb/
       highlight: '14her'
-
   - block: research-highlights
     id: 'tstbar_intro'
     content:
-      title: 'Imaging HR 8799 bcde and 51 Eri b with JWST'
+      title: 'Colorful Images of HR 8799 bcde with JWST'
       subtitle: ''
       figtext: '{{< figure src="/uploads/hr8799bcde_tstbar_opo_fancy.png" width="320">}}'
       external_link: https://webbtelescope.org/contents/news-releases/2025/news-2025-114
       highlight: 'tstbar_intro'
   - block: research-highlights-left
     content:
-      title: 'Measuring CO2 Absorption, Constraining Composition'
+      title: 'Measuring CO2 Absorption to Constrain Composition'
       subtitle: ''
       figtext: '{{< figure src="/uploads/51erib_tstbar_opo_fancy.png" width="360">}}'
       external_link: https://ui.adsabs.harvard.edu/abs/2025AJ....169..209B/abstract
       highlight: tstbar_details
   - block: research-highlights
     content:
-      title: 'How Typical Is AF Leporis b? Answers from Interferometry'
+      title: 'How Typical Is This Young Giant Planet? Answers from Interferometry'
       subtitle: ''
       figtext: '{{< figure src="/uploads/astrometric_orbit_aflepb.png" width="400">}}'
       external_link: https://ui.adsabs.harvard.edu/abs/2025AJ....169...30B/abstract
       highlight: vlti_aflepb_char
-  - block: research-highlights-left
-    content:
-      title: 'Imaging a Young Jupiter with JWST'
-      subtitle: ''
-      figtext: '{{< figure src="/uploads/fancy_combined_f444w-removebg.png" width="340">}}'
-      external_link: https://ui.adsabs.harvard.edu/abs/2024ApJ...974L..11F/abstract
-      highlight: jwst_aflepb_char
+  # - block: research-highlights-left
+  #   content:
+  #     title: 'Imaging a Young Jupiter with JWST'
+  #     subtitle: ''
+  #     figtext: '{{< figure src="/uploads/fancy_combined_f444w-removebg.png" width="340">}}'
+  #     external_link: https://ui.adsabs.harvard.edu/abs/2024ApJ...974L..11F/abstract
+  #     highlight: jwst_aflepb_char
 
 
   - block: awards-and-observing
@@ -92,7 +99,7 @@ sections:
         exclude_featured: true
     design:
       view: citation
-      columns: "2"
+      columns: "1"
       background:
         image: 
           filename: paranal_22.jpg
@@ -163,7 +170,7 @@ sections:
       columns: "1"
       background:
         image: 
-          filename: JHU_beehive.jpg
+          filename: ChonkyExoplanet_JosephOlmsted.jpg
         image_darken: 0
         image_parallax: true
         image_position: center
