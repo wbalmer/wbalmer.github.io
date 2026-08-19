@@ -149,10 +149,12 @@ sections:
   - block: markdown
     id: press
     content:
-      title: Research in the Press
+      title: In the Press
       subtitle: ''
       text: |
         A selection of articles written about research I'm involved in; articles on a repeated topic typically indicate I provided additional comments for that particular article. Last updated 2025/03/27.
+
+        "[Observational astronomer William Balmer awarded 51 Pegasi b Fellowship ](https://hub.jhu.edu/2026/04/14/observational-astronomer-william-balmer-awarded-51-pegasi-b-fellowship/)," by Rachel Wallach for *JHU*.
 
         "[Scientists used JWST instruments 'wrong' on purpose to capture direct images of exoplanets](https://www.space.com/space-exploration/james-webb-space-telescope/scientists-used-jwst-instruments-wrong-on-purpose-to-capture-direct-images-of-exoplanets)," by Victoria Corless for *Space.com*.
 
