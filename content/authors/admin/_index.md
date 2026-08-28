@@ -133,7 +133,7 @@ skills:
         description: ''
         percent: 80
         # icon: camera
-      - name: Over a thousand of hours as Co-I
+      - name: Over a thousand hours as Co-I
 ---
 
 # Hello, I'm Will Balmer.
